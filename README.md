@@ -161,3 +161,6 @@ ble.registerDidUpdateValueForCharacteristic((param)=>{
 ```
 - `param.UUID` - `String` - Characteristic UUID.
 - `param.value` - `String` - Characteristic value.
+=======
+Simple ble api for react native
+>>>>>>> f001669d457ad68bec621814dff0742bdf3d892b
