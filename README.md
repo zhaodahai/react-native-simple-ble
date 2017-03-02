@@ -1,7 +1,9 @@
 # react-native-simple-ble
 [![npm version](https://img.shields.io/npm/v/react-native-simple-ble.svg?style=flat)](https://www.npmjs.com/package/react-native-simple-ble)
 
-Currently only support ios and require react-native >= 0.40.0
+Simple BLE api for react native
+
+Currently only support ios and require react-native >= 0.40.0.
 
 
 ##Installation
@@ -161,6 +163,3 @@ ble.registerDidUpdateValueForCharacteristic((param)=>{
 ```
 - `param.UUID` - `String` - Characteristic UUID.
 - `param.value` - `String` - Characteristic value.
-=======
-Simple ble api for react native
->>>>>>> f001669d457ad68bec621814dff0742bdf3d892b
