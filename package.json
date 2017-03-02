@@ -1,0 +1,15 @@
+{
+  "name": "react-native-simple-ble",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhaodahai/react-native-simple-ble.git"
+  },
+  "author": "zdh",
+  "license": "ISC"
+}

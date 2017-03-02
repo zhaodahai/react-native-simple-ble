@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0310DEB01E553A06002B67E0 /* RNBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310DEAF1E553A06002B67E0 /* RNBluetooth.m */; };
+		0310DEB11E553A06002B67E0 /* RNBluetooth.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0310DEAE1E553A06002B67E0 /* RNBluetooth.h */; };
+		0310DF441E558618002B67E0 /* BluetoothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0310DF431E558618002B67E0 /* BluetoothManager.m */; };
+		034A51421E67C5420093C02D /* RNBluetoothEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 034A51411E67C5420093C02D /* RNBluetoothEvent.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0310DEA91E553A06002B67E0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				0310DEB11E553A06002B67E0 /* RNBluetooth.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0310DEAB1E553A06002B67E0 /* libRNBluetooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBluetooth.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0310DEAE1E553A06002B67E0 /* RNBluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNBluetooth.h; sourceTree = "<group>"; };
+		0310DEAF1E553A06002B67E0 /* RNBluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNBluetooth.m; sourceTree = "<group>"; };
+		0310DF421E558618002B67E0 /* BluetoothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothManager.h; sourceTree = "<group>"; };
+		0310DF431E558618002B67E0 /* BluetoothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothManager.m; sourceTree = "<group>"; };
+		034A51401E67C5420093C02D /* RNBluetoothEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBluetoothEvent.h; sourceTree = "<group>"; };
+		034A51411E67C5420093C02D /* RNBluetoothEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBluetoothEvent.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0310DEA81E553A06002B67E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0310DEA21E553A06002B67E0 = {
+			isa = PBXGroup;
+			children = (
+				0310DEAD1E553A06002B67E0 /* RNBluetooth */,
+				0310DEAC1E553A06002B67E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0310DEAC1E553A06002B67E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0310DEAB1E553A06002B67E0 /* libRNBluetooth.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0310DEAD1E553A06002B67E0 /* RNBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				0310DEAE1E553A06002B67E0 /* RNBluetooth.h */,
+				0310DEAF1E553A06002B67E0 /* RNBluetooth.m */,
+				0310DF421E558618002B67E0 /* BluetoothManager.h */,
+				0310DF431E558618002B67E0 /* BluetoothManager.m */,
+				034A51401E67C5420093C02D /* RNBluetoothEvent.h */,
+				034A51411E67C5420093C02D /* RNBluetoothEvent.m */,
+			);
+			path = RNBluetooth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0310DEAA1E553A06002B67E0 /* RNBluetooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0310DEB41E553A06002B67E0 /* Build configuration list for PBXNativeTarget "RNBluetooth" */;
+			buildPhases = (
+				0310DEA71E553A06002B67E0 /* Sources */,
+				0310DEA81E553A06002B67E0 /* Frameworks */,
+				0310DEA91E553A06002B67E0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBluetooth;
+			productName = RNBluetooth;
+			productReference = 0310DEAB1E553A06002B67E0 /* libRNBluetooth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0310DEA31E553A06002B67E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tcxy;
+				TargetAttributes = {
+					0310DEAA1E553A06002B67E0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0310DEA61E553A06002B67E0 /* Build configuration list for PBXProject "RNBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0310DEA21E553A06002B67E0;
+			productRefGroup = 0310DEAC1E553A06002B67E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0310DEAA1E553A06002B67E0 /* RNBluetooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0310DEA71E553A06002B67E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0310DF441E558618002B67E0 /* BluetoothManager.m in Sources */,
+				0310DEB01E553A06002B67E0 /* RNBluetooth.m in Sources */,
+				034A51421E67C5420093C02D /* RNBluetoothEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0310DEB21E553A06002B67E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0310DEB31E553A06002B67E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0310DEB51E553A06002B67E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0310DEB61E553A06002B67E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0310DEA61E553A06002B67E0 /* Build configuration list for PBXProject "RNBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0310DEB21E553A06002B67E0 /* Debug */,
+				0310DEB31E553A06002B67E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0310DEB41E553A06002B67E0 /* Build configuration list for PBXNativeTarget "RNBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0310DEB51E553A06002B67E0 /* Debug */,
+				0310DEB61E553A06002B67E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0310DEA31E553A06002B67E0 /* Project object */;
+}
